@@ -19,25 +19,68 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
-        font-size: 11px;
+        font-size: 14px;
         text-align: center;
       }
       .attribution a {
-        color: hsl(228, 45%, 44%);
+        color: hsl(228, 45%, 54%);
       }
     </style>
   </head>
-  <body>
-    <span class="text-blue-500 text-6xl font-fraunces">olaaa</span> Preview
-    Gabrielle Essence Eau De Parfum A floral, solar and voluptuous
-    interpretation composed by Olivier Polge, Perfumer-Creator for the House of
-    CHANEL. $149.99 $169.99 Add to Cart
+  <body class="bg-cream font-montserrat text-sm md:text-base">
+    <div
+      class="flex flex-col mx-auto my-10 max-w-screen-sm bg-white rounded-xl overflow-hidden md:flex-row md:max-w-screen-md md:grid md:grid-cols-2"
+    >
+      <div>
+        <img
+          class="block md:hidden"
+          src="./images/image-product-mobile.jpg"
+          alt=""
+        />
+        <img
+          class="hidden md:block"
+          src="./images/image-product-desktop.jpg"
+          alt=""
+        />
+      </div>
+      <div class="flex flex-col md:justify-around">
+        <div class="px-8">
+          <span class="block uppercase text-darkGrayishBlue mt-6 tracking-[5px]"
+            >Perfume</span
+          >
+          <h2
+            class="font-fraunces text-4xl mt-3 text-veryDarkBlue md:mt-6 md:text-5xl"
+          >
+            Gabrielle Essence Eau De Parfum
+          </h2>
+          <p class="mt-4 leading-6 text-left text-darkGrayishBlue md:mt-6">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+        </div>
+        <div class="mt-6 px-8 flex justify-start items-center space-x-5">
+          <span class="text-4xl text-darkCyan font-fraunces md:text-5xl"
+            >$149.99</span
+          >
+          <span class="line-through text-darkGrayishBlue">$169.99</span>
+        </div>
+        <div class="mt-5 mb-8 px-8">
+          <button
+            class="flex justify-center items-center gap-3 bg-darkCyan text-white font-bold w-full py-5 rounded-xl md:hover:bg-green-900"
+          >
+            <img class="w-4 h-4" src="./images/icon-cart.svg" alt="cart" />
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
 
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by
+      <a href="https://github.com/RenanOshiro" target="_blank">Renan Oshiro</a>.
     </div>
   </body>
 </html>
