@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshots
 
-![](./screenshots/mobile.png) ![](./screenshots/desktop.png)
+![](./screenshots/mobile.png)
+![](./screenshots/desktop.png)
 
 ### Links
 
-- Solution: [Repository](https://github.com/RenanOshiro/product-preview-card-component/)
-- Live Site: [Live Site](https://renanoshiro.github.io/product-preview-card-component/)
+[Live Site](https://renanoshiro.github.io/product-preview-card-component/)
 
 ## My process
 
